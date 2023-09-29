@@ -124,3 +124,16 @@ dmypy.json
 .pyre/
 
 .DS_Store
+
+
+# data Files
+*.npy
+data/*.npy
+data/*.zip
+data/*/*.mat
+
+# Results
+results/*
+
+# Figures
+figures/*.png
